@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Symbols+Outlined:100,200,300,regular,500,600,700" rel="stylesheet" />
+    <title>Site Well</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <header class="sider-header">
+            <img class="logo-img" src="https://avatars.githubusercontent.com/u/101023510?v=4" alt="Foto do usuario">
+        </header>
+        <nav>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">home</i>
+                    <span>Home</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">tag</i>
+                    <span>explorar</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">email</i>
+                    <span>Mensagens</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined">person</i>
+                    <span>Profile</span>
+                </span>
+            </button>
+
+        </nav>
+    </aside>
+
+    <!--Criando um menu mobile-->
+    <button class="button-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined">menu</i>
+        <span>Menu</span>
+    </button>
+
+    <nav class="menu-mobile" id="menu-mobile">
+        <button class="button-close" onclick="toggleMenu()">
+            <span>
+                <i class="material-symbols-outlined">close</i>
+            </span>
+        </button>
+
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">home</i>
+                <span class="mobile-text">Home</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">tag</i>
+                <span class="mobile-text">explorar</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">email</i>
+                <span class="mobile-text">Mensagens</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined">person</i>
+                <span class="mobile-text">Profile</span>
+            </span>
+        </button>
+    </nav>
+
+    <main class="main">
+        <h1>Bem-Vindos ao site!</h1>
+        <span>@pinheirowellington110@gmail.com</span>
+    </main>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
